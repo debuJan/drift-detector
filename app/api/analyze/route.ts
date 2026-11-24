@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const MODEL = "gemini-3.8-flash";
+const MODEL = "gemini-3.5-flash-lite";
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
